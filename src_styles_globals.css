@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic focus visible for a11y */
+:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
